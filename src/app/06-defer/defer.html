@@ -1,0 +1,12 @@
+
+
+
+@defer ( when readyToLoad() == true) {
+  <app-child-view />
+} @placeholder {
+  <p>Loading placeholder...</p>
+} @loading {
+  <p>Still loading...</p>
+} @error {
+  <p>Something went wrong</p>
+} 
